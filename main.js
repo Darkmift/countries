@@ -5,7 +5,7 @@ $("button").click(function() {
 	})
 });
 
-$("input[value='Search']").click(function(e) {
+$("input[name='name']").keyup(function(e) {
 	e.preventDefault();
 	$("main").empty();
 	var name = $("input[name='name']").val();
